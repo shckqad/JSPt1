@@ -1,15 +1,11 @@
-var today = new Date();
-var hourNow = today.gethours();
-var greeting;
+var vaccinated = true;
+var name = 'Michael';
+var message = 'Hi '+ name +' you\'re vaccination has been approved you may enter';
 
-if (hourNow > 18) {
-  greeting = 'Good Evening';
-} else if (hourNow > 12) {
-  greeting = 'Good Afternoon Jane!';
-} else if (hourNow > 0) {
-  greeting = 'Good Morning!';
-} else {
-  greeting = 'Welcome!';
-}
+var element = document.getElementById(
+  corncurls
+);
 
-document.write('<h2>' + greeting + '</h2>');
+element.textContent = message;
+
+console.log(message);
