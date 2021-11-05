@@ -12,7 +12,7 @@ vaccinationType: 'Pfizer',
 sex: 'M',
 Age: '27',
 fullVacc: true,
-dose2: new Date('Oct 31, 2021 10:00:00'),
+dose2: new Date('Nov 5, 2021 10:00:00'),
  getDifference: function(){
  var today = new Date()
  var difference = today.getTime() - vCard.dose2.getTime();
