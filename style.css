@@ -6,6 +6,12 @@
 
 body {
      padding: 20px;
+     background-image: url('images/cv19.jpg');
+     background-blend-mode: lighten;
+     background-size: 20%;
+     background-size: cover;
+     margin: 12px;
+     font-family: 'Open-sans', sans-serif;
 }
 
 .intro {
@@ -16,5 +22,17 @@ body {
 }
 
 #corncurls {
+  background-color: black;
+  border: 2px solid black;
   margin-top: 20px;
+  padding: 20px;
+  color: white;
+}
+
+#message {
+  background-color: Black;
+  border: 2px solid Black;
+  margin-top: 20px;
+  padding: 20px;
+  color: white;
 }
